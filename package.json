@@ -1,0 +1,21 @@
+{
+  "name": "musicbot_discordjs_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev" : "concurrently \"tsc -w\" \"nodemon build/index.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.5.0",
+    "discord.js": "^14.6.0",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
